@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2017-10-25 07:34:25" Modified_Date="2017-11-03 15:36:50" Creator="Brian Kindinger" Comments="" ID="09f88bec14426b42513abd62ae034680">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2017-10-25 07:34:25" Modified_Date="2018-01-18 08:24:30" Creator="Brian Kindinger" Comments="" ID="82c2d01768f29295da404c5129f485b0">
   <Library_General_Settings>
     <Package_File_Name>pec_lib_PEC_Buck_Boost</Package_File_Name>
-    <Library_Version>1.0.0.4</Library_Version>
+    <Library_Version>1.0.0.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\dev</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -17,6 +17,7 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
+      <Additional_External_Dependencies>ni_lib_lvjson &gt;=1.0.0.57</Additional_External_Dependencies>
       <Additional_External_Dependencies>ni_lib_ni_floating_point_library_addon &gt;=1.0.0.3</Additional_External_Dependencies>
       <Additional_External_Dependencies>pec_lib_buffer_logging &gt;=1.0.1.12</Additional_External_Dependencies>
       <Additional_External_Dependencies>pec_lib_scale_and_limit &gt;=1.0.0.11</Additional_External_Dependencies>
@@ -37,7 +38,8 @@
       <Copyright/>
       <Packager>National Instruments</Packager>
       <URL>https://github.com/LabVIEW-Power-Electronic-Control/Buck-Boost</URL>
-      <Release_Notes>[BLK 10/25/2017] Initial build</Release_Notes>
+      <Release_Notes>[BLK 10/25/2017] Initial build
+[BLK 1/18/2017]  Added file logging in interface.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>

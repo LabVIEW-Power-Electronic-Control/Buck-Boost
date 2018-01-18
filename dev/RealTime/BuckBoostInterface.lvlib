@@ -22,4 +22,6 @@
 	<Item Name="setPerturbance.vi" Type="VI" URL="../setPerturbance.vi"/>
 	<Item Name="setRampRate.vi" Type="VI" URL="../setRampRate.vi"/>
 	<Item Name="setState.vi" Type="VI" URL="../setState.vi"/>
+	<Item Name="setTuning.vi" Type="VI" URL="../setTuning.vi"/>
+	<Item Name="TuningParameters.ctl" Type="VI" URL="../TuningParameters.ctl"/>
 </Library>
