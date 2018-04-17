@@ -1,0 +1,72 @@
+***************************************************************************
+***************************************************************************
+Core 1
+ ----------------------------------------------------------------------
+                         OPAL-RT TECHNOLOGIES                           
+
+  eHSx64 Gen3 solver netlist information: 
+ ----------------------------------------------------------------------
+
+ Netlist Name:   FPGA clock period:  5e-09 
+ Solver desired time step:  2.10e-07 
+ Solver achievable minimum time step:  2.10e-07 
+ Solver achievable minimum number of FPGA clock cycle:      42 
+ 
+ 
+ Number of States (Inductor Current, Capacitor Voltages):   6 
+ Number of Switches:   6 
+ Number of Inputs:   3 
+ Number of Outputs:   5 
+
+
+ ----------------------------------------------------------------------
+  Further details about inputs:  
+ -------------------------------------------------
+  Index           Label                Type
+ -------------------------------------------------
+     1  u01_dclink_top            Voltage source 
+     2  u02_dclink_bot            Voltage source 
+     3        u03_batt            Voltage source 
+ ----------------------------------------------------------------------
+
+
+ ----------------------------------------------------------------------
+  Details about outputs:  
+ -------------------------------------------------
+  Index          Label                 Type
+ -------------------------------------------------
+     1             y01            Current measurement 
+     2             y02            Current measurement 
+     3             y03            Current measurement 
+     4       y04_vbatt            Voltage measurement 
+     5      y05_dclink            Voltage measurement 
+ ----------------------------------------------------------------------
+
+
+ ----------------------------------------------------------------------
+  Details about switches:  
+ ------------------------------------------------------------
+  Index         Label                 Type              Gs
+ ------------------------------------------------------------
+     1          sw01               IGBT//Diode        0.1100  
+     2          sw02               IGBT//Diode        0.1100  
+     3          sw03               IGBT//Diode        0.1100  
+     4          sw04               IGBT//Diode        0.1100  
+     5          sw05               IGBT//Diode        0.1100  
+     6          sw06               IGBT//Diode        0.1100  
+ ----------------------------------------------------------------------
+
+
+ ----------------------------------------------------------------------
+  Details about states:  
+ ---------------------------------------------------------------------
+  Index                              State name               Type      
+ ---------------------------------------------------------------------
+     1                                    Il_l1           Inductance        
+     2                                    Il_l2           Inductance        
+     3                                    Il_l3           Inductance        
+     4                                    Uc_c1            Capacitor        
+     5                                    Uc_c2            Capacitor        
+     6                                    Uc_c3            Capacitor        
+ ----------------------------------------------------------------------
+
